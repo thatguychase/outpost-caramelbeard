@@ -1,8 +1,8 @@
 /** Color customization **/
 :root {
-  --text: #F1F1F1;
-  --background: #012030;
-  --accent: #45C4B0;
+  --text: #000;
+  --background: #f9e4a1;
+  --accent: #A08B5A;
 }
 
 /** Reset some basic elements */
@@ -196,6 +196,9 @@ pre > code {
 
 img.site-image {
   border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #A08B5A;
   width: 100px;
   margin-bottom: 40px;
 }
@@ -204,12 +207,12 @@ img.site-image {
   font-size: 56px;
   letter-spacing: -.25px;
   margin: 0;
-  color: var(--text);
+  color: #A08B5A;
   text-decoration: none;
 }
 
 .site-title, .site-title:visited {
-  color: var(--text);
+  color: var(--accent);
 }
 
 .navigation {
@@ -320,6 +323,7 @@ li.h-entry:last-of-type {
 
 #post-nav .prev a:hover, #post-nav .next a:hover {
   background: var(--text);
+  color: #fff;
 }
 
 video {
