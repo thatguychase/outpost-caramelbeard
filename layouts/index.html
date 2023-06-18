@@ -17,17 +17,14 @@
     
 		{{ if .Title }}
 			<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+			<h3>{{ .Date.Format "Monday January 2, 2006" }}</h3>
 		{{ end }}
 
     <div class="e-content">
-      {{ .Summary }}
-    {{ if .Truncated }}
-	    <br/>
-      <p><a href="{{ .RelPermalink }}">Read More</a></p>
-    {{ end }}
-    </div>
-        
-    <a href="{{ .Permalink }}" class="u-url date">{{ .Date.Format "Monday January 2, 2006" }}</a>
+    {{ .Content }}
+  </div>
+<div style="margin-top: 45px;"><i><b>Like what you've read?</b> Consider <a href="https://www.buymeacoffee.com/CaramelBeard">buying me a coffee</a>!</i></div>
+
     </li>
     {{ end }}
   </ul>
