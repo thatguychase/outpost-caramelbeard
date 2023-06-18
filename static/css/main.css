@@ -19,6 +19,7 @@ body {
   font-weight: normal;
   color: var(--text);
   background-color: var(--background);
+  background-image: linear-gradient(to bottom, #f8d78f, #f9e4a1);
   margin: 120px auto;
   padding: 0 32px;
 }
@@ -80,11 +81,15 @@ h1, h1 a, h1 a:visited {
 }
 
 h2, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+}
+
+h2 {
+	margin-top: 50px;
 }
 
 h3 {
@@ -197,7 +202,7 @@ pre > code {
 img.site-image {
   border-radius: 100px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #A08B5A;
   width: 100px;
   margin-bottom: 40px;
@@ -316,7 +321,7 @@ li.h-entry:last-of-type {
 #post-nav .prev a, #post-nav .next a {
   color: #012030;
   text-decoration: none;
-  background: var(--accent);
+  background: #f8d78f;
   padding: 12px 24px;
   border-radius: 8px;
 }
