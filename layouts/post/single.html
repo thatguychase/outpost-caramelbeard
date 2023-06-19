@@ -11,10 +11,12 @@
 		{{ end }}
     {{ end }}
 	  
-	{{ if .Title }}
-	  	<h1 class="p-name">{{ .Title }}</h1>
-		<h3>{{ .Date.Format "Monday January 2, 2006" }}</h3>
-  	{{ end }}
+	<div>
+		{{ if .Title }}
+			<h1>{{ .Title }}</h1>
+		{{ end }}
+			<h3>{{ .Date.Format "Monday January 2, 2006" }}</h3>
+	</div>
   </header>
 
   <article class="post-content e-content">
