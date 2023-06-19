@@ -19,7 +19,6 @@ body {
   font-weight: normal;
   color: var(--text);
   background-color: var(--background);
-  background-image: linear-gradient(to bottom, #f8d78f, #f9e4a1);
   margin: 120px auto;
   padding: 0 32px;
 }
@@ -60,7 +59,7 @@ ul li:last-of-type {
 
 /** Headings */
 h1 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 h1, h1 a, h1 a:visited {
@@ -98,7 +97,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--accent);
-  margin: 0 0 28px 0;
+  margin: 0 0 10px 0;
   display: inline-block;
 }
 
@@ -373,7 +372,7 @@ iframe {
 .microblog_conversation .microblog_post {
   margin-bottom: 32px;
   padding: 42px;
-  background: #00000050;
+  background: #f8d78f;
   border-radius: 8px;
 }
 
