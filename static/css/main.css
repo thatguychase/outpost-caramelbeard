@@ -326,7 +326,7 @@ li.h-entry:last-of-type {
 }
 
 #post-nav .prev a:hover, #post-nav .next a:hover {
-  background: var(--text);
+  background: var(--accent);
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ iframe {
   width: 100%;
   max-width: 100%;
   min-height: 510px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /** Archive **/
